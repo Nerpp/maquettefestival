@@ -32,7 +32,7 @@
     <nav class="col-12 navbar navbar-expand-sm navbar-dark bg-dark border border-dark">
         <div class="mx-auto text-white">
             <p>
-                <h2 class="d-block d-sm-none">Menu</h2>
+                <h2 class="d-block d-sm-none" c>Menu</h2>
             </p>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -125,8 +125,8 @@
                     <h5 class="d-block d-sm-none">Les films à l'affiche</h4>
                 </p>
             </div>
-            <div class="col-sm-6 col-12">
-                <div id="film" class="carousel slide" data-ride="carousel">
+            <div id="film" class="col-sm-6 col-12">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -301,7 +301,7 @@
         <div class="row">
             <div class="d-sm-inline-flex">
                 <div class="col-sm-6 col-12">
-                    <img src="public\images\film\Bernie1.jpg" class="img-fluid" alt="Bernie">
+                    <img src="public\images\film\bernie1.jpg" class="img-fluid" alt="Bernie">
                 </div>
                 <div class="col-sm-6 col-12 flex-column">
                     <div class="col p-2">
