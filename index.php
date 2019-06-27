@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -5,7 +6,7 @@
     <title>Festival de films en plein air</title>
 
     <!-- appel au css -->
-    <link rel="stylesheet" href="style.index.css" />
+    <link rel="stylesheet" href="public\css\style.index.css" />
 
     <!-- admin mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,11 +22,560 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- bootstrap -->
 
-
+    <!-- icone Font Awesome 5 -->
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 </head>
 
 <body>
-  
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark border border-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item p-4">
+                    <a class="nav-link" href="#accueil">Accueil</a>
+                </li>
+                <li class="nav-item p-4">
+                    <a class="nav-link" href="#film">Films</a>
+                </li>
+                <li class="nav-item p-4">
+                    <a class="nav-link" href="#reservation">Reservation</a>
+                </li>
+                <li class="nav-item p-4">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- titre principal-->
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="d-none d-sm-block">Festival de films en plein air</h1>
+                <h5 class="d-block d-sm-none">Festival de films en plein air</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <h3 class="d-none d-sm-block">Maquette du site</h3>
+                <h6 class="d-block d-sm-none">Maquette du site</h6>
+            </div>
+        </div>
+    </div>
+    <!-- titre principal -->
+
+    <!-- Histoire du festival -->
+    <div class="container p-3">
+        <div class="row align-items-center">
+            <div class="col-sm-6 col-12">
+                <p>
+                    <h3 id="accueil">Histoire du Festival</h3>
+                </p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui elit, iaculis nec semper nec, euismod eget lorem.
+                    Praesent hendrerit volutpat posuere. Phasellus finibus pretium venenatis. Pellentesque sed iaculis arcu.
+                    Curabitur consequat, diam vel eleifend placerat, risus est egestas neque, non sodales orci magna vel nulla.
+                    Nunc vestibulum felis ut elementum elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Cras vehicula tellus at nibh aliquet congue. Etiam a mi vel mauris venenatis convallis mollis at turpis.
+                    Pellentesque quam sem, tempus eget justo eu, efficitur rhoncus quam. Curabitur pretium metus risus, et porttitor libero lobortis a.
+                </p>
+            </div>
+            <div class="col-sm-6 col-12">
+                <img src="public\images\illustration\histoireConcert.jpg" class="img-fluid" alt=" Italian Trulli">
+            </div>
+        </div>
+    </div>
+    <!-- Histoire du festival -->
+    <div class="container p-3">
+        <div class="row align-items-center">
+            <div class="col-sm-6 col-12">
+                <p>
+                    <h3>Infos utiles pour le festival</h3>
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui elit, iaculis nec semper nec, euismod eget lorem.
+                    Praesent hendrerit volutpat posuere. Phasellus finibus pretium venenatis. Pellentesque sed iaculis arcu.
+                    Curabitur consequat, diam vel eleifend placerat, risus est egestas neque, non sodales orci magna vel nulla.
+                    Nunc vestibulum felis ut elementum elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Cras vehicula tellus at nibh aliquet congue. Etiam a mi vel mauris venenatis convallis mollis at turpis.
+                    Pellentesque quam sem, tempus eget justo eu, efficitur rhoncus quam. Curabitur pretium metus risus, et porttitor libero lobortis a.
+                </p>
+            </div>
+            <div class="col-sm-6 col-12">
+                <img src="public\images\illustration\definitionConcert.jpg" class="img-fluid" alt=" Italian Trulli">
+            </div>
+        </div>
+    </div>
+    <!-- Infos utiles pour le festival -->
+
+    <!-- Caroussel -->
+    <div class="container p-5">
+        <div class="row align-items-center">
+            <div class="col-sm-6 col-12 text-center jumbotron">
+                <p>
+                    <h1 class="d-none d-sm-block">Les films à l'affiche</h1>
+                    <h5 class="d-block d-sm-none">Les films à l'affiche</h4>
+                </p>
+            </div>
+            <div class="col-sm-6 col-12">
+                <div id="film" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" class="img-fluid" src="public\images\film\fightClub1.jpg" alt="Fight Club">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" class="img-fluid" src="public\images\film\matrix1.jpg" alt="Matrix">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" class="img-fluid" src="public\images\film\unJourSansFin1.jpg" alt="Un jour sans fin">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" class="img-fluid" src="public\images\film\bernie1.jpg" alt="Bernie">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Caroussel -->
+
+    <!-- présentation film 1 -->
+    <div class="container p-3">
+        <div class="row">
+            <div class="d-sm-inline-flex">
+                <div class="col-sm-6 col-12">
+                    <img src="public\images\film\fightClub1.jpg" class="img-fluid" alt="Fight Club">
+                </div>
+                <div class="col-sm-6 col-12 flex-column">
+                    <div class="col p-2">
+                        <p>
+                            <h1>Fight Club</h1>
+                        </p>
+                    </div>
+                    <div class="col p-2">
+                        <p>
+                            <h4>Synopsis</h4>
+                        </p>
+                    </div>
+                    <div class="col p-1">
+                        <p>
+                            Le narrateur, sans identité précise, vit seul, travaille seul, dort seul, mange seul ses plateaux-repas pour une personne
+                            comme beaucoup d'autres personnes seules qui connaissent la misère humaine, morale et sexuelle.
+                            C'est pourquoi il va devenir membre du Fight club, un lieu clandestin ou il va pouvoir retrouver sa virilité,
+                            l'échange et la communication. Ce club est dirigé par Tyler Durden, une sorte d'anarchiste entre gourou et philosophe
+                            qui prêche l'amour de son prochain.
+                        </p>
+                    </div>
+                    <div class="col p-2">
+                        <div class="container align-items-end">
+                            <div class="d-inline-flex p-3 bg-secondary text-white">
+                                <div class="p-2 bg-info">
+                                    <h3>Date de projection </h3>
+                                </div>
+                                <div class="p-3 bg-warning">05/02/2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- présentation film 1 -->
+
+    <!-- présentation film 2 -->
+    <div class="container p-3">
+        <div class="row">
+            <div class="d-sm-inline-flex">
+                <div class="col-sm-6 col-12">
+                    <img src="public\images\film\matrix1.jpg" class="img-fluid" alt="Matrix">
+                </div>
+                <div class="col-sm-6 col-12 flex-column">
+                    <div class="p-2">
+                        <p>
+                            <h1>Matrix</h1>
+                        </p>
+                    </div>
+                    <div class="col p-2">
+                        <p>
+                            <h4>Synopsis</h4>
+                        </p>
+                    </div>
+                    <div class="col p-1">
+                        <p>
+                            Programmeur anonyme dans un service administratif le jour, Thomas Anderson devient Neo la nuit venue.
+                            Sous ce pseudonyme, il est l'un des pirates les plus recherchés du cyber-espace.
+                            A cheval entre deux mondes, Neo est assailli par d'étranges songes et des messages cryptés provenant d'un certain Morpheus.
+                            Celui-ci l'exhorte à aller au-delà des apparences et à trouver la réponse à la question qui hante constamment
+                            ses pensées : qu'est-ce que la Matrice ? Nul ne le sait, et aucun homme n'est encore parvenu à en percer les defenses.
+                            Mais Morpheus est persuadé que Neo est l'Elu, le libérateur mythique de l'humanité annoncé selon la prophétie.
+                            Ensemble, ils se lancent dans une lutte sans retour contre la Matrice et ses terribles agents...
+                        </p>
+                    </div>
+                    <div class="col p-2">
+                        <div class="container align-items-end">
+                            <div class="d-inline-flex p-3 bg-secondary text-white">
+                                <div class="p-2 bg-info">
+                                    <h3>Date de projection </h3>
+                                </div>
+                                <div class="p-3 bg-warning">06/02/2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- présentation film 2 -->
+
+    <!-- présentation film 3 -->
+    <div class="container p-3">
+        <div class="row">
+            <div class="d-sm-inline-flex">
+                <div class="col-sm-6 col-12">
+                    <img src="public\images\film\unJourSansFin1.jpg" class="img-fluid" alt="Un jour sans fin">
+                </div>
+                <div class="col-sm-6 col-12 flex-column">
+                    <div class="p-2">
+                        <p>
+                            <h1>Un jour sans fin</h1>
+                        </p>
+                    </div>
+                    <div class="col p-2">
+                        <p>
+                            <h4>Synopsis</h4>
+                        </p>
+                    </div>
+                    <div class="col p-1">
+                        <p>
+                            Phil Connors, journaliste à la télévision et responsable de la météo part faire son reportage annuel
+                            dans la bourgade de Punxsutawney où l'on fête le "Groundhog Day" : "Jour de la marmotte".
+                            Dans l'impossibilité de rentrer chez lui ensuite à Pittsburgh pour cause d'intempéries
+                            il se voit forcé de passer une nuit de plus dans cette ville perdue.
+                            Réveillé très tôt le lendemain il constate que tout se produit exactement comme la veille
+                            et réalise qu'il est condamné à revivre indéfiniment la même journée, celle du 2 février...
+                        </p>
+                    </div>
+                    <div class="col p-2">
+                        <div class="container align-items-end">
+                            <div class="d-inline-flex p-3 bg-secondary text-white">
+                                <div class="p-2 bg-info">
+                                    <h3>Date de projection </h3>
+                                </div>
+                                <div class="p-3 bg-warning">07/02/2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- présentation film 3 -->
+
+    <!-- présentation film 4 -->
+    <div class="container p-3">
+        <div class="row">
+            <div class="d-sm-inline-flex">
+                <div class="col-sm-6 col-12">
+                    <img src="public\images\film\Bernie1.jpg" class="img-fluid" alt="Bernie">
+                </div>
+                <div class="col-sm-6 col-12 flex-column">
+                    <div class="col p-2">
+                        <p>
+                            <h1>Bernie</h1>
+                        </p>
+                    </div>
+                    <div class="col p-2">
+                        <p>
+                            <h4>Synopsis</h4>
+                        </p>
+                    </div>
+                    <div class="col p-1">
+                        <p>
+                            Quand il quitte l'orphelinat, Bernie Noël est âgé de trente ans. Il n'a qu'un seul but : connaître ses origines. Commence alors un parcours semé d'embûches pour ce garçon névrosé et déconnecté du monde réel qui va semer le désordre partout où il passera.
+                        </p>
+                    </div>
+                    <div class="col p-2">
+                        <div class="container align-items-end">
+                            <div class="d-inline-flex p-3 bg-secondary text-white">
+                                <div class="p-2 bg-info">
+                                    <h3>Date de projection </h3>
+                                </div>
+                                <div class="p-3 bg-warning">08/02/2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- présentation film 3 -->
+
+    <!-- Inscription-->
+    <div class="container p-5">
+        <div class="row">
+            <div id="reservation" class="col-12 text-center">
+                <h1 class="d-none d-sm-block">Inscription Festival de films en plein air</h1>
+                <h6 class="d-xl-none">Inscription Festival de films en plein air</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <h3 class="d-none d-sm-block">Veuillez choisir votre séance</h3>
+                <h6 class="d-xl-none">Veuillez choisir votre séance</h6>
+            </div>
+        </div>
+    </div>
+
+    <form action="">
+        <div class="container p-3">
+            <div class="row">
+                <div class="col-sm-4 col-12">
+                    <div class="form-group was-validated">
+                        <input type="text" class="form-control" placeholder="Nom" name="nom" required>
+                        <div class="valid-feedback">Valide.</div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="form-group was-validated">
+                        <input type="text" class="form-control" placeholder="Prénom" name="prénom" required>
+                        <div class="valid-feedback">Valide.</div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="form-group was-validated">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="" placeholder="E-mail" aria-describedby="inputGroupPrepend" required>
+                        </div>
+                        <div class="valid-feedback">Valide.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="d-flex">
+                <div class="col-6 col-sm-6">
+                    <label class="form-check-label ">
+                        <p><input type="radio" class="form-check-input" name="fightClub">Fight Club</p>
+                    </label>
+                </div>
+                <div class="col-6 col-sm-6">
+                    <p>
+                        <select class="form-control form-control-sm">
+                            <option>Nbre de place</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="d-flex">
+                <div class="col-6 col-sm-6">
+                    <label class="form-check-label ">
+                        <p><input type="radio" class="form-check-input" name="Matrix">Matrix</p>
+                    </label>
+                </div>
+                <div class="col-6 col-sm-6">
+                    <p>
+                        <select class="form-control form-control-sm">
+                            <option>Nbre de place</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="d-flex">
+                <div class="col-6 col-sm-6">
+                    <label class="form-check-label ">
+                        <p><input type="radio" class="form-check-input" name="unJourSansFin">Un jour sans fin</p>
+                    </label>
+                </div>
+                <div class="col-6 col-sm-6">
+                    <p>
+                        <select class="form-control form-control-sm">
+                            <option>Nbre de place</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="d-flex">
+                <div class="col-6 col-sm-6">
+                    <label class="form-check-label ">
+                        <p><input type="radio" class="form-check-input" name="bernie">Bernie</p>
+                    </label>
+                </div>
+                <div class="col-6 col-sm-6">
+                    <p>
+                        <select class="form-control form-control-sm">
+                            <option>Nbre de place</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col-12 text-center">
+                <label class="form-check-label ">
+                    <p><input type="radio" class="form-check-input" name="newsLetter">Inscrivez-vous à notre news letter pour des infos en avant-premiere</p>
+                </label>
+            </div>
+        </div>
+
+        <div class="container p-2">
+            <div class="row justify-content-center">
+                <div class="class">
+                    <button type="submit" class="btn btn-primary">Soumettre</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- Inscription-->
+
+    <!-- Contact -->
+    <div class="container p-5">
+        <div id="contact" class="row">
+            <div class="col-12 text-center">
+                <h1 class="d-none d-sm-block">Comment nous contacter</h1>
+                <h5 class="d-block d-sm-none">Comment nous Contacter</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-12">
+            <p>Pour nous Téléphoner :</p>
+            <div class="d-flex">
+                <div class="p-2">
+                    <p><i class="fas fa-phone"></i></p>
+                </div>
+                <div class="p-2">
+                    <p><strong>Tél :</strong> 07********</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-12">
+            <p>Pour nous écrire :</p>
+            <div class="d-flex">
+                <p>
+                    <div class="p-2">
+                        <i class='fas fa-home'></i>
+                    </div>
+                    <div class="p-2">
+                        Festival en plein air<br>
+                        Rue du festivalier Content<br>
+                        34000 Quelquespart
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="d-none d-sm-block">Vous pouvez nous envoyer un message directement</h2>
+                <h6 class="d-block d-sm-none">Vous pouvez nous envoyer un message directement</h6>
+            </div>
+        </div>
+    </div>
+    <form action="">
+        <div class="container p-1">
+            <div class="row">
+                <div class="col-sm-6 col-12">
+                    <div class="form-group was-validated">
+                        <input type="text" class="form-control" placeholder="Nom" name="nom" required>
+                        <div class="valid-feedback">Valide.</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="form-group was-validated">
+                        <input type="text" class="form-control" placeholder="Prénom" name="prénom" required>
+                        <div class="valid-feedback">Valide.</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="form-group was-validated">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="" placeholder="E-mail" aria-describedby="inputGroupPrepend" required>
+                        </div>
+                        <div class="valid-feedback">Valide.</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="form-group was-validated">
+                        <input type="text" class="form-control" placeholder="Téléphone" name="telephone" required>
+                        <div class="valid-feedback">Valide.</div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <textarea class="form-control" placeholder="Ecrivez votre message ici...." rows="5"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="container p-2">
+            <div class="row justify-content-center">
+                <div class="class">
+                    <button type="submit" class="btn btn-primary">Soumettre</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- Contact -->
+
+
+
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
