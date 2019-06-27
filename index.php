@@ -30,22 +30,26 @@
 
     <!-- Navbar -->
     <nav class="col-12 navbar navbar-expand-sm navbar-dark bg-dark border border-dark">
-        <a class="navbar-brand" href="#"></a>
+        <div class="mx-auto text-white">
+            <p>
+                <h2 class="d-block d-sm-none">Menu</h2>
+            </p>
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarColor02">
             <ul class="navbar-nav mx-auto">
-                <li class="nav-item p-4">
+                <li class="nav-item p-4 mx-auto">
                     <a class="nav-link" href="#accueil">Accueil</a>
                 </li>
-                <li class="nav-item p-4">
+                <li class="nav-item p-4 mx-auto">
                     <a class="nav-link" href="#film">Films</a>
                 </li>
-                <li class="nav-item p-4">
+                <li class="nav-item p-4 mx-auto">
                     <a class="nav-link" href="#reservation">Reservation</a>
                 </li>
-                <li class="nav-item p-4">
+                <li class="nav-item p-4 mx-auto">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
