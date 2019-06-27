@@ -29,7 +29,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark border border-dark">
+    <nav class="col-12 navbar navbar-expand-sm navbar-dark bg-dark border border-dark">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
