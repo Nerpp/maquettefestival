@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <title>Festival de films en plein air</title>
 
+    <!-- pour le SEO produit google -->
+    <link rel="alternate" hreflang="fr" href="https://aurelienperso.ovh/festival/" />
+
     <!-- appel au css -->
     <link rel="stylesheet" href="public\css\style.index.css" />
 
