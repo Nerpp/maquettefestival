@@ -7,7 +7,10 @@
     <title>Festival de films en plein air</title>
 
     <!-- balise meta SEO google descriptif du site -->
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript,Bootstrap4">
     <meta name="Festival film en plein air" content="maquette Festival films en plein air" />
+    <meta name="author" content="Nerpp">
+    <meta http-equiv="refresh" content="30">
 
     <!-- pour le SEO produit google -->
     <link rel="alternate" hreflang="fr" href="https://aurelienperso.ovh/festival/" />
